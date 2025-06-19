@@ -172,10 +172,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2025 - Present",
     points: [
-      "Designing and developing user interfaces from Figma to functional frontend implementation.",
-      "Building responsive and interactive web applications using React,NextJS, HTML, CSS, and JavaScript.",
-      "Implementing backend functionalities to support frontend operations. Ensuring mobile",
-      "Responsiveness and optimizing websites for various screen sizes to enhance user experience.",
+      "Demonstrated strong expertise in both front-end and backend , successfully delivering complete web applications using modern frameWorks and texhnologies.",
+      "Took full ownership of modules , from equipment gathering and design to development , deployment and maintenance.",
+      "Collaborated effectively with UI/UX designers and build user-friendly applications.",
+      "Proactively identified performance bottlenecks and implemented optimizations that increase user experience",
     ],
   },
 ];
