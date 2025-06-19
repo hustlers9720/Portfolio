@@ -18,7 +18,6 @@ import {
   express,
   aws,
   mui,
-
   gsap,
   framer,
   figma,
@@ -33,7 +32,9 @@ import {
   threejs,
   mittalalliance,
   firstTestimonial,
+  image,
   secondTestimonial,
+  image2,
   thirdTestimonial,
 } from '../assets'
 
@@ -156,12 +157,25 @@ const experiences = [
     company_name: "Mittal Alliance",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "March 2025 - present",
+    date: "March 2025 - June-2025",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and developing user interfaces from Figma to functional frontend implementation.",
+      "Building responsive and interactive web applications using React,NextJS, HTML, CSS, and JavaScript.",
+      "Implementing backend functionalities to support frontend operations. Ensuring mobile",
+      "Responsiveness and optimizing websites for various screen sizes to enhance user experience.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Latent Space",
+    icon: tekisky,
+    iconBg: "#383E56",
+    date: "June 2025 - Present",
+    points: [
+      "Designing and developing user interfaces from Figma to functional frontend implementation.",
+      "Building responsive and interactive web applications using React,NextJS, HTML, CSS, and JavaScript.",
+      "Implementing backend functionalities to support frontend operations. Ensuring mobile",
+      "Responsiveness and optimizing websites for various screen sizes to enhance user experience.",
     ],
   },
 ];
@@ -183,9 +197,45 @@ const testimonials = [
     company: "College Hackathon Team",
     image: firstTestimonial, // Add your image import
   },
+  {
+    testimonial: "As a full-stack developer, you delivered a complete production-ready application—seamlessly integrating React.js frontends with Node.js APIs.",
+    name: "HR",
+    designation: "Full Stack Developer",
+    company: "Latent Space",
+    image: image
+  }
 ];
 
 const projects = [
+  {
+    name: "Goyal Estate",
+    description: "A modern real estate platform enabling property searches, virtual tours, and agent connections. Features secure user authentication, advanced filtering, and interactive property listings with a responsive UI for seamless browsing across devices.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "tailwind",
+        color: "white-text-gradient"
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient"
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient"
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient"
+      }
+    ],
+    image: image2, // Update with your actual image import
+    source_code_link: "https://github.com/hustlers9720/RealEstate",
+    // "live_demo_link": "https://goyal-estate.com" // Optional: Add if deployed
+  },
   {
     name: "Forever E-commerce Platform",
     description:

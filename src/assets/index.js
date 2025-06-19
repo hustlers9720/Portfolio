@@ -31,8 +31,11 @@ import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
 import curetime from './curetime.png'
 import forever from './forever.png'
+import image from './company/image.png'
 import mittalalliance from './company/mittalalliance_logo.png'
+import image2 from './tech/image.png'
 export {
+  image2,
   logo,
   forever,
   mittalalliance,
@@ -59,6 +62,7 @@ export {
   framer,
   figma,
   git,
+  image,
   html,
   javascript,
   mongodb,
