@@ -9,6 +9,7 @@ import { SectionWrapper } from "../hoc";
 
 gsap.registerPlugin(ScrollTrigger);
 
+
 const useGsap = (elementRef, animation, delay = 0) => {
   useEffect(() => {
     if (elementRef.current) {
